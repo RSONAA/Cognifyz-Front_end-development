@@ -1,0 +1,409 @@
+
+@media (min-width: 900px){
+.a{
+    background-color: #997E67;
+    font-size: 25px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    object-fit: cover;
+}
+nav{
+    object-fit: cover;
+}
+.a1{
+    padding-left: 110px;
+}
+.a1 img{
+    padding-bottom: 6px;
+}
+
+.lines a{
+    text-decoration: none;
+    color:black
+
+}
+.scroll{
+    font-size: 20px;
+    display: flex;
+    height: 300px;
+    padding-top: 40px;
+    
+}
+
+.text1{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.foods{
+    display: inline-block;
+    margin-right: 20px;
+}
+.foods img {
+    border-radius: 100px ;
+    border: 0;
+    margin: 0;
+    width: 280px;
+    height: 250px;
+    padding: 0 20px;
+    padding-right: 10px;
+    object-fit: cover;
+    
+}
+.scroll h3{
+    text-align: center;
+}
+
+.scroll {
+    font-size: 20px;
+    display: flex;
+    height: 200px;
+    padding-top: 40px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    padding: 20px 0;
+    cursor: pointer;
+    height: 350px;
+    padding-left: 40px;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+body{
+    /* background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% ); */
+    background-image: linear-gradient( 44.8deg,  rgba(255,136,102,0.67) -53.1%, rgba(255,221,136,0.28) 49% );
+}
+.text2{
+    padding-left: 5%;
+    font-size: 40px;
+    padding-top: -2%;
+    /* padding-bottom: 100%; */
+}
+.buttons{
+    padding-inline-start: 60px;
+}
+.buttons .buto{
+    margin-right: 40px;
+    /* margin-bottom: 10px; */
+    size-adjust: 10px;
+    padding: 5px 10px;
+    border-color: black;
+    border-radius: 20px;
+}
+.buto {
+   font-size: 15px;
+   color: black;
+
+}
+.bt{
+    max-width: 100%;
+}
+.foodies, .fgo, .last {
+    text-align: center;
+    position: relative;
+    overflow: hidden; 
+}
+.foodies {
+    text-align: center;
+    /* Add some margin between the foodies */
+}
+.foodies img {
+    border: 0;
+    margin: 0;
+    width: 290px;
+    height: 230px;
+    padding: 0 35px;
+    /* padding: 0 35px 35px 35px; */
+    object-fit:cover;
+    border-radius: 90px 90px;
+    transition: transform 0.3s ease; 
+   
+}
+.foodies::after{
+    position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  height: 50%; /* Adjust height for shade intensity */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.foodies img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.firstbox{
+    display:flex;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.foodies h2{
+    color: beige;
+    /* padding-left: 20px; */
+    margin-top: -50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+}
+.foodies  h3{
+    font-size: 30px;
+    font-weight: bold;
+    /* padding-right: 60px; */
+    /* padding-bottom: 0px; */
+    text-align: left;
+    padding-left: -40px;
+    
+    padding: 0 50px;
+    padding-right: 30px;
+}
+.foodies h4{
+    padding-right: 60px;
+    padding-top: -10px;
+    /* display: inline-block; */
+    margin-top: -25px;
+    text-align: left;
+    white-space: nowrap;
+    padding-left:50px;
+    color:#997E67;
+}
+
+.fgo {
+    text-align: center;
+    /* Add some margin between the foodies */
+}
+.fgo img {
+    border: 0;
+    margin: 0;
+    width: 290px;
+    height: 230px;
+    padding: 0 35px;
+    object-fit:cover;
+    border-radius: 90px 90px;
+    transition: transform 0.3s ease; 
+   
+}
+.fgo img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.secondbox{
+    display:flex;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.fgo h2{
+    color: beige;
+    /* padding-left: 20px; */
+    margin-top: -50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+}
+.fgo h3{
+    font-size: 30px;
+    font-weight: bold;
+    /* padding-right: 60px; */
+    /* padding-bottom: 0px; */
+    text-align: left;
+    padding-left: -40px;
+    
+    padding: 0 50px;
+    padding-right: 30px;  
+}
+.fgo h4{
+    padding-right: 60px;
+    padding-top: -10px;
+    /* display: inline-block; */
+    margin-top: -25px;
+    text-align: left;
+    white-space: nowrap;
+    padding-left:50px;
+    color:#997E67;
+}
+
+.last {
+    text-align: center;
+    /* Add some margin between the foodies */
+}
+.last img {
+    border: 0;
+    margin: 0;
+    width: 290px;
+    height: 230px;
+    padding: 0 35px;
+    object-fit:cover;
+    border-radius: 90px 90px;
+    transition: transform 0.3s ease; 
+   
+}
+.last img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.thirdbox{
+    display:flex;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.last h2{
+    color: beige;
+    /* padding-left: 20px; */
+    margin-top: -50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+}
+.last h3{
+    font-size: 30px;
+    font-weight: bold;
+    /* padding-right: 60px; */
+    /* padding-bottom: 0px; */
+    text-align: left;
+    padding-left: -40px;
+    
+    padding: 0 50px;
+    padding-right: 30px;  
+}
+.last h4{
+    padding-right: 60px;
+    padding-top: -10px;
+    /* display: inline-block; */
+    margin-top: -25px;
+    text-align: left;
+    white-space: nowrap;
+    padding-left:50px;
+    color:#997E67;
+}
+.line{
+    width: auto;
+    height: 10px;
+    color: #997E67;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+} 
+.line hr{
+    height:1px;
+    /* padding-right:20px ;
+    padding-left: 10px; */
+    background-color: #997E67;
+}
+.lstxt{
+    font-size: 30px;
+    padding-left: 70px;
+}
+.lsbutton{
+    padding-inline-start: 70px;
+}
+.lsbutton .buts{
+    padding: 15px 28px ;
+    margin-right: 80px;
+    display: inline-block;
+    font-size: 16px;
+    white-space: nowrap;
+    border: none;
+    border-radius: 20px;
+    min-width: 100px; 
+    background-color:whitesmoke;
+    text-align: center;
+    line-height: 20px; /* Vertically center the text */
+}
+.lsbutton2{
+    padding-inline-start: 70px;
+    padding-top: 30px;
+}
+.lsbutton2 .buts2{
+    padding: 15px 28px;
+    /* padding-left: 20px; */
+    margin-right: 85px;
+    font-size: 16px;
+    border-radius: 20px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    min-width: 100px; 
+    text-align: center; 
+    background-color:whitesmoke;
+    line-height: 20px; /* Vertically center the text */
+}
+
+footer{
+    background-color: #997E67;
+    /* padding-top: 30px; */
+    margin-top: 40px;
+    /* height:200px */
+}
+.phase1{
+    padding-left: 20px;
+}
+.phase1 img{
+    height:30px;
+    padding-left: 70px;
+    padding-top: 40px;
+
+
+}
+.phase1 h5{
+    padding-left: 140px;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: -25px;
+}
+.phase1  a i{
+    padding-left: 80px;
+    padding-bottom: 120px;
+    size: 100px;
+    /* margin-top: -160px; */
+    /* width: 10px; */
+}
+.phase1 a h6{
+    font-size: 15px;
+    padding-left: 100px;
+    margin-top: -140px;
+}
+.main{
+    display: flex;
+    /* margin-left: 70px; */
+}
+
+.phase2{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.phase3{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.phase4{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.phase5{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.phase6{
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.pics2{
+    padding-left: 5px;
+}
+.pics3{
+    padding-left: 5px;
+}
+.pics4{
+    padding-left: 5px;
+}
+
+}
+
+
+
+    
